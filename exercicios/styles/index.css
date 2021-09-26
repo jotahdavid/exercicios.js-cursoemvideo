@@ -1,0 +1,48 @@
+* {
+    margin: 0; padding: 0; box-sizing: border-box; font-family: sans-serif;
+    text-decoration: none; list-style: none;
+}
+
+body {
+    background: rgb(26, 28, 29);
+}
+
+header {
+    margin: 2rem 0;
+    font-size: 1.6rem;
+    text-align: center;
+    color: #fff;
+}
+
+header span {color: rgb(255, 255, 56)}
+
+main {
+    color: #000;
+    max-width: 450px;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 30px; margin: 25px auto;
+    box-shadow: 0.2rem 0.3rem 5px rgba(0, 0, 0, 0.3);
+}
+
+main > h2 {
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+    color: rgb(57, 57, 201);
+    text-align: center;
+}
+
+main > .links {
+    margin: 0 80px;
+    font-size: 1.1rem;
+}
+
+a {color: rgb(0, 0, 0)}
+
+a:hover {color: rgb(197, 197, 24)}
+
+footer {
+    text-align: center;
+    color: #fff;
+    font-weight: 600;
+}

@@ -1,0 +1,86 @@
+* {
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif; 
+}
+
+body {background-color: #534B62 /* #B10F2E; */}
+
+header {
+    color: white;
+    margin: 20px 0;
+    font-size: 1.8rem;
+    text-align: center;
+}
+
+main {
+    background-color: #fff;
+    max-width: 600px;
+    margin: 25px auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0.3rem 0.3rem 5px rgba(0, 0, 0, 0.3);
+    font-size: 1.2rem;
+    overflow-x: auto;
+}
+
+#data {text-align: center}
+
+input {
+    text-align: center;
+    font-size: 16px;
+}
+
+input[type=number] {width: 100px} 
+
+input[type=submit] {
+    width: 130px; 
+    padding: 0 10px; 
+    cursor: pointer;
+}
+
+input[type=button] {
+    width: 80px;
+    cursor: pointer;
+    padding: 0 10px;
+}
+
+input[type=submit]:hover, input[type=button]:hover {
+    background-color: #6c6180;
+    color: #fff;
+    outline: none;
+}
+
+div#show-table {
+    text-align: center;
+    font-size: 18px;
+    overflow-x: auto;
+}
+
+div#show-table th {text-transform: uppercase}
+
+#multiplication-table {display: none}
+
+#multiplication-table.show {
+    display: inline-block;
+    margin-top: 20px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.3);
+}
+
+#multiplication-table td {
+    width: 25px;
+}
+
+.back {
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+footer {
+    color: white;
+    text-align: center;
+    font-weight: 600;
+}

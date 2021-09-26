@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>Exemplo 01</title>
+        <style>* {font-family: sans-serif;}</style>
+    </head>
+    <body>
+        <h1>Hello, world!</h1>
+        <script>
+            window.alert('Hello, world!');
+            let getAnswer = window.prompt("What's your name?");
+            if (getAnswer === "") {
+                getAnswer = 'user';
+            }
+
+            const getConfirm = window.confirm('Are you enjoying this course?');
+            console.log(`Hello ${getAnswer.toUpperCase()}, welcome!`);
+            console.log(`The ${getAnswer.toUpperCase()} is enjoying?`, getConfirm);
+        </script>
+    </body>
+</html>

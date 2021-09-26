@@ -1,0 +1,32 @@
+* {font-family: sans-serif; box-sizing: border-box;}
+
+body {
+    background-color: #2f2f2f; color: #fff; /*#CC1C4A*/
+    text-align: center;
+} 
+
+#box {
+    background-color: #007000; 
+    font: normal 1.2rem Arial; text-transform: uppercase; color: white; 
+
+    width: 250px; height: 200px; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    margin: 0 auto;
+
+    border-radius: 5px;
+    box-shadow: 0.2rem 0.2rem 10px #1d1d1d;
+
+    /* tira a seleção de texto */
+    user-select: none;
+}
+
+#button {
+    width: 100px; padding: 10px; margin-top: 20px;
+    cursor: pointer;
+
+    font-weight: 800; text-transform: uppercase;
+    
+    display: none;
+}
