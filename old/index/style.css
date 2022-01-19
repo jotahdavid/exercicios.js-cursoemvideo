@@ -1,0 +1,47 @@
+body {
+    background: rgb(26, 28, 29);
+}
+
+header {
+    color: white;
+    font: normal 20px Arial;
+    text-align: center;
+}
+
+strong#jsTitulo {
+    color: yellow;
+}
+
+section {
+    background: white;
+    border-radius: 8px;
+    padding: 15px;
+    width: 400px;
+    margin: auto;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.349);
+    font: normal 15px Arial;
+}
+
+div#subTitulo {
+    font: bold 15px Arial;
+    font-size: 20px;
+    text-align: center;
+    color: rgb(57, 57, 201);
+}
+
+
+ul#exerc {
+    list-style: none;
+    font-size: 17px;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+footer {
+    font: italic 12px Arial;
+    text-align: center;
+    color: white;
+}

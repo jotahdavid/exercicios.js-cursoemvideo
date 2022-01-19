@@ -1,0 +1,37 @@
+body {
+    background: rgb(90, 139, 151);
+}
+
+header {
+    color: white;
+    font: normal 20px Arial;
+    text-align: center;
+}
+
+section {
+    background: white;
+    border-radius: 8px;
+    padding: 15px;
+    width: 400px;
+    margin: auto;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.349);
+    font: normal 15px Arial;
+}
+
+footer {
+    font: italic 12px Arial;
+    text-align: center;
+    color: white;
+}
+input#age {
+    width: 60px;
+    text-align: center;
+}
+div#res {
+    font: bold 15px Arial;
+    text-align: center;
+    color: rgb(57, 57, 201);
+    font-style: italic;
+    margin-top: 10px;
+
+}

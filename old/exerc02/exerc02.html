@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 02</title>
+    <link rel="stylesheet" href="exerc02.css">
+</head>
+
+<body>
+    <header> <!-- cabeçalho -->
+        <h1>Verificador de Idade</h1>
+    </header>
+    <section> <!-- seção -->
+        <div>
+            <b>Ano de nascimento:</b>
+            <input type="number" name="age" id="age" min="1950">
+            <p><b>Gênero:</b>
+                <input type="radio" name="radgen" id="masculino" checked> 
+                <label for="masculino">Masculino</label>
+                <input type="radio" name="radgen" id="feminino">
+                <label for="feminino">Feminino</label>
+<!--colocar o mesmo "name" nos radio, faz com que tenha que escolher entre um e outro-->
+            </p>
+            <input id='verificar' type="button" value="Verificar">
+        </div>
+        <div id='res'>
+            <p id='txt'>Preencha os dados corretamentes para ver o resultado!</p>
+            <img id="foto-pessoa" src="" alt="" >
+        </div>
+
+    </section>
+    <footer> <!-- rodapé -->
+        <p>&copy; Todos os direitos reservados</p>
+    </footer>
+    <script src="exerc02.js"></script>
+</body>
+</html>

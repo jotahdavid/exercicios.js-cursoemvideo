@@ -1,0 +1,42 @@
+body {
+    background: rgb(64, 109, 87);
+}
+
+header {
+    color: white;
+    font: normal 20px Arial;
+    text-align: center;
+}
+
+section#main {
+    background: white;
+    border-radius: 8px;
+    padding: 15px;
+    width: 400px;
+    margin: auto;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.349);
+    font: bold 15px Arial;
+    text-align: center;
+}
+
+section#res {
+    background: rgb(77, 73, 73);
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.349);
+    padding: 15px;
+    border-radius: 8px;
+    width: 50%;
+    margin: auto;
+    color: white;
+    font: bold 18px Arial;
+
+}
+
+footer {
+    font: italic 12px Arial;
+    text-align: center;
+    color: white;
+}
+
+input#num {
+    width: 120px;
+}
